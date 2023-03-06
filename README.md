@@ -2,7 +2,7 @@
 
 ## Get link of products
 get 13k links of shopee products:
-- First, get 27 categories of shopee products by using function `get_cat_urls` from `get_url.py`
+- First, get 27 categories of shopee products for `https://shopee.vn/` by using function `get_cat_urls` from `get_url.py`
 
 ![shopee1](shopee1.png)
 
@@ -27,6 +27,6 @@ get 13k links of shopee products:
         
         `link`: link of product,
         
-        `sale_quantity`: the number of product's sales,
+        `sale_quantity`: the number of product's sales that is hashed,
         
         `sale_location`: the location of shop that sells product.
